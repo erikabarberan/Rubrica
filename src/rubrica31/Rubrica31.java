@@ -6,6 +6,7 @@
 
 package rubrica31;
 
+import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 /**
@@ -19,12 +20,16 @@ public class Rubrica31 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-          int n1, n2,suma;
- 
-    n1=Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese primer numero"));
-    n2= Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese segundo numero"));
-    suma=n1+n2;
-    JOptionPane.showMessageDialog(null, suma); 
+       int precio = 0;
+   
+       System.out.println("Escribe el precio");
+      
+          if (precio > 100){
+           precio = (int) (precio + (precio *0.15));
+        }
+       System.out.println("El precio total es: "+precio);
+            
+  
     }
     
 }
