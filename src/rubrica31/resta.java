@@ -5,6 +5,7 @@
  */
 
 package rubrica31;
+hui
 
 import java.util.Scanner;
 
