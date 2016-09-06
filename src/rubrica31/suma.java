@@ -16,7 +16,7 @@ public class suma {
     
        public static void main(String[] args) {
         // TODO code application logic here
-ghjsl
+
       int sum = 0, firstNumber, secondNumber;
       Scanner inputNumScanner = new Scanner(System.in);
       System.out.println("Enter First Number: ");
